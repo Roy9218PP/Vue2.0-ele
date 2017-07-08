@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+	margin: 0;
+	/*background-color: palegoldenrod;*/
+	
+}
+@media only screen and (min-width: 0px) and (max-width: 240px) {
+	html{
+		font-size: 8px;
+		
+	}
+}
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+	html{
+		font-size: 14px;
+		
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+	html{
+		font-size: 18px;
+		
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 940px) {
+	html{
+		font-size: 30px;
+		
+	}
+}
+@media only screen and (min-width: 940px)  {
+	html{
+		font-size: 40px;
+		
+	}
+}
+.container{
+	
+	height: 100%;
+	overflow: scroll;
+	/*background-color: palegreen;*/
+}
+.bottom_blank{
+	height: 2.5rem;
+	
+}
